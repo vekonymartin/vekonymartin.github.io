@@ -4,20 +4,37 @@ h2 {
   margin: 0.4em 0;
 }
 h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
+  color: rgb(216, 212, 212);
 }
 h2 {
   color: rgb(216, 212, 212);
   font-size: 2em;
+  vertical-align: center;
+}
+
+.txt-rotate {
+  font-size: 5rem;
+}
+
+.title-top {
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  position: absolute;
+  margin-top: 25%;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .title {
   margin: 0;
   width: 100%;
   height: 100vh;
-}
-
-.title-top {
+  background: linear-gradient(to right, #302e24, #28313e);
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .container {

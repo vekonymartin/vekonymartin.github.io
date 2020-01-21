@@ -6,6 +6,7 @@ import Home from "./components/Home/home";
 import Skill from "./components/Skills/skill";
 import TimeLine from "./components/Timeline/timeline";
 import Footer from "./components/Footer/footer";
+import SkillC from "./components/Skills/skillCarousels";
 import "bootstrap/dist/css/bootstrap.min.css";
 export default class App extends Component {
   state = {
@@ -53,7 +54,7 @@ export default class App extends Component {
       <div className="App">
         <Progress scroll={this.state.scrollPostion + "%"} />
         <Home />
-        <Skill />
+        <SkillC />
         <TimeLine />
         <Footer />
       </div>

@@ -25,7 +25,7 @@ class Skill extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={require("./java.jpg")}
             alt="Second slide"
           />
 
@@ -37,7 +37,7 @@ class Skill extends Component {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={require("./unity.jpg")}
             alt="Third slide"
           />
 

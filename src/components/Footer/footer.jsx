@@ -27,7 +27,7 @@ class Footer extends Component {
               </a>
             </li>
             <li>
-              <a href="mailto:vekony.martin15@gmail.com" target="blank">
+              <a target="blank">
                 <i class="fa fa-google"></i>
               </a>
             </li>

@@ -1,6 +1,6 @@
 #footer-main-div {
   width: auto;
-  height: 100%;
+  height: 50vh;
   position: block;
   margin: auto;
 
@@ -33,7 +33,7 @@
 }
 
 .footer-social-icons ul li a {
-  color: rgba(250, 224, 66, 0.8);
+  color: rgba(250, 224, 66, 0.8) !important;
   font-size: 25px;
 }
 
@@ -47,11 +47,16 @@
 
 hr {
   width: 80%;
-  background-color: rgba(250, 224, 66, 0.8);
+  background-color: rgba(187, 163, 11, 0.876);
   height: 15px;
 }
 
 .col {
   text-align: left;
   margin-left: 15%;
+}
+
+a:not([href]):not([tabindex]) {
+  /* color: inherit; */
+  text-decoration: none;
 }

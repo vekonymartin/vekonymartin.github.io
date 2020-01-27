@@ -1,20 +1,4 @@
-.card-container {
+.skill-container {
   margin: 0;
-  padding: 5%;
-  background-color: rgb(49, 49, 49);
   height: 100vh;
-}
-
-#card-sector {
-  margin: 0;
-  position: inherit;
-  top: 50%;
-  width: auto;
-  height: 80vh;
-  background-color: yellow;
-  vertical-align: center;
-}
-
-#card {
-  vertical-align: center;
 }

@@ -28,7 +28,9 @@ class TimeLineComponent extends Component {
         <h4 className="vertical-timeline-element-subtitle">
           {this.props.workPlace}
         </h4>
-        <p>{this.props.desc}</p>
+        <p className="verrical-timeline-element-description">
+          {this.props.desc}
+        </p>
       </VerticalTimelineElement>
     );
   }

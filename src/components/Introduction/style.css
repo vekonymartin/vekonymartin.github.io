@@ -8,6 +8,12 @@
   height: 100vh;
 }
 
+.titleBox {
+  font-family: "Bebas Neue", cursive !important;
+  font-size: 40px;
+  margin-top: 0;
+}
+
 .flexIntroductionContainer {
   display: flex;
   flex-wrap: wrap;

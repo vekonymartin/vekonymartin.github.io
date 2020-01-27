@@ -7,18 +7,30 @@ class Introduction extends Component {
   render() {
     return (
       <div className="titleContainer">
-        <div>
-          <p>{IntroductionText.title}</p>
-        </div>
         <div className="flexIntroductionContainer">
           <div className="felxItem">
-            <div className="section animated animatedFadeInUp fadeInUp">
+            <p
+              className="titleBox animated animatedFadeInUp fadeInUp"
+              style={{ "animation-delay": "0.2s" }}
+            >
+              {IntroductionText.title}
+            </p>
+            <div
+              className="section animated animatedFadeInUp fadeInUp"
+              style={{ "animation-delay": "0.5s" }}
+            >
               <p>{IntroductionText.line1}</p>
             </div>
-            <div className="section animated animatedFadeInUp fadeInUp">
+            <div
+              className="section animated animatedFadeInUp fadeInUp"
+              style={{ "animation-delay": "0.6s" }}
+            >
               <p>{IntroductionText.line2}</p>
             </div>
-            <div className="section animated animatedFadeInUp fadeInUp">
+            <div
+              className="section animated animatedFadeInUp fadeInUp"
+              style={{ "animation-delay": "0.7s" }}
+            >
               <p>{IntroductionText.line3}</p>
             </div>
           </div>

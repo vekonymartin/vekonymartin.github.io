@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import SkillText from "./SkillText";
+import SkillCarouselItem from "./skill";
 import "./style.css";
 
 class Skill extends Component {
@@ -8,6 +9,15 @@ class Skill extends Component {
     return (
       <div className="skill-container">
         <Carousel>
+          {/* <SkillCarouselItem
+            title="asdf"
+            mainTechText={SkillText.mainTechText}
+            mainTechMap={SkillText.mainTech.map((tech, i) => (
+              <li key={i}>- {tech}</li>
+            ))}
+            srcImg={require("../Skills/csharp.png")}
+            altImg="csharp"
+          /> */}
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -19,7 +29,7 @@ class Skill extends Component {
               <p>{SkillText.mainTechText}</p>
               <p>
                 {SkillText.mainTech.map((tech, i) => (
-                  <li key={i}>- {tech}</li>
+                  <li key={i}>{tech}</li>
                 ))}
               </p>
             </Carousel.Caption>

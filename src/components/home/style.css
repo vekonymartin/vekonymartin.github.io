@@ -18,18 +18,20 @@ h2 {
 }
 
 .title-top {
+  display: flex;
   width: 100%;
   left: 0;
   top: 0;
   display: flex;
-  position: absolute;
-  margin-top: 25%;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   width: 100%;
   height: 100vh;

@@ -11,7 +11,7 @@ class Home extends Component {
             <span
               class="txt-rotate"
               data-period="2000"
-              data-rotate='["Hello there!", "Welcome my webpage!"]'
+              data-rotate='["Hello there!", "Welcome to my webpage!"]'
             ></span>
           </h1>
         </div>

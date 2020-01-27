@@ -9,6 +9,7 @@ class Introduction extends Component {
       <div className="titleContainer">
         <div className="flexIntroductionContainer">
           <div className="felxItem">
+            <img src={require("./me.png")} className="me"/>
             <p
               className="titleBox animated animatedFadeInUp fadeInUp"
               style={{ "animation-delay": "0.2s" }}

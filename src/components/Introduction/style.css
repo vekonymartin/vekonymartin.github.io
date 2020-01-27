@@ -33,6 +33,14 @@
   margin-bottom: 20px;
 }
 
+.me{
+  position: absolute;
+    width: auto;
+    height: 100vh;
+    display: -webkit-inline-box;
+    margin: 0px;
+}
+
 .flexItem {
   width: 100%;
   align-self: flex-start;
@@ -41,6 +49,12 @@
   hyphens: auto;
   line-height: 1.7em;
   margin: 10px 17px;
+
+  background-image: url(me.png) no-repeat center center fixed;
+  /* -webkit-backdrop-size: cover;
+  -moz-background-siye: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
 
 @media only screen and (min-width: 768px) {

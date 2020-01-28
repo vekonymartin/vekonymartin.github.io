@@ -1,4 +1,7 @@
 .titleContainer {
+  background-image: url(/static/media/me.4e009112.png);
+  background-size: cover;
+
   color: white;
   font-size: x-large;
   display: flex;
@@ -33,12 +36,12 @@
   margin-bottom: 20px;
 }
 
-.me{
+.me {
   position: absolute;
-    width: auto;
-    height: 100vh;
-    display: -webkit-inline-box;
-    margin: 0px;
+  width: auto;
+  height: 100vh;
+  display: -webkit-inline-box;
+  margin: 0px;
 }
 
 .flexItem {

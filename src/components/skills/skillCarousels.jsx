@@ -8,6 +8,7 @@ class Skill extends Component {
   render() {
     return (
       <div className="skill-container">
+        
         <Carousel>
           {/* <SkillCarouselItem
             title="asdf"
@@ -18,12 +19,15 @@ class Skill extends Component {
             srcImg={require("../Skills/csharp.png")}
             altImg="csharp"
           /> */}
+          
           <Carousel.Item>
+          <div className="skill-overlay">
             <img
               className="d-block w-100"
               src={require("./../../svg/logo1.png")}
               alt="First slide"
             />
+            </div>
             <Carousel.Caption>
               <h3>{SkillText.title}</h3>
               <p>{SkillText.mainTechText}</p>
@@ -34,7 +38,6 @@ class Skill extends Component {
               </p>
             </Carousel.Caption>
           </Carousel.Item>
-
 
           <Carousel.Item>
             <img
@@ -81,7 +84,7 @@ class Skill extends Component {
             </Carousel.Caption>
           </Carousel.Item>     
         </Carousel>
-      </div>
+        </div>
     );
   }
 }

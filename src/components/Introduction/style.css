@@ -1,5 +1,5 @@
 .titleContainer {
-  background-image: url(/static/media/me.4e009112.png);
+  background-image: url(./../../svg/me.png);
   background-size: cover;
 
   color: white;
@@ -53,7 +53,7 @@
   line-height: 1.7em;
   margin: 10px 17px;
 
-  background-image: url(me.png) no-repeat center center fixed;
+  background-image: url(./../../svg/me.png) no-repeat center center fixed;
   /* -webkit-backdrop-size: cover;
   -moz-background-siye: cover;
   -o-background-size: cover;

@@ -21,7 +21,7 @@ class Skill extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./csharp.png")}
+              src={require("./../../svg/logo1.png")}
               alt="First slide"
             />
             <Carousel.Caption>
@@ -34,10 +34,12 @@ class Skill extends Component {
               </p>
             </Carousel.Caption>
           </Carousel.Item>
+
+
           <Carousel.Item>
             <img
               className="d-block w-100"
-              // src={require("./java.jpg")}
+              src={require("./../../svg/logo2.png")}
               alt="Second slide"
             />
 
@@ -46,10 +48,12 @@ class Skill extends Component {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
+
+
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./unity.jpg")}
+              src={require("./../../svg/logo3.png")}
               alt="Third slide"
             />
 
@@ -60,6 +64,22 @@ class Skill extends Component {
               </p>
             </Carousel.Caption>
           </Carousel.Item>
+
+
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={require("./../../svg/logo4.png")}
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h3>Third slide label</h3>
+              <p>
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              </p>
+            </Carousel.Caption>
+          </Carousel.Item>     
         </Carousel>
       </div>
     );

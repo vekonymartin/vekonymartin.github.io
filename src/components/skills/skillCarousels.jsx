@@ -47,8 +47,13 @@ class Skill extends Component {
             />
 
             <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h3>{SkillText.title}</h3>
+              <p>{SkillText.secondaryTechText}</p>
+              <p>
+              {SkillText.secondaryTech.map((tech, i) => (
+                  <li key={i}>{tech}</li>
+                ))}
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -61,28 +66,14 @@ class Skill extends Component {
             />
 
             <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h3>{SkillText.title}</h3>
+              <p>{SkillText.secondaryTechText}</p>
+              <p>              
+                {SkillText.secondaryTech.map((tech, i) => (
+                  <li key={i}>{tech}</li>
+                ))}</p>
             </Carousel.Caption>
-          </Carousel.Item>
-
-
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={require("./../../svg/logo4.png")}
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>     
+          </Carousel.Item>   
         </Carousel>
         </div>
     );

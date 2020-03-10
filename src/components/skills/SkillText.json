@@ -15,14 +15,14 @@
   "java": "JAVA (JSP, Servlet)",
   "git": "GIT",
 
-  "secondaryTechText": "",
+  "secondaryTechText": "Sometimes, I am learning/making webpagr in my free time.",
 
   "html": "HTML",
   "css": "CSS",
   "javascript": "JavaScript (basic level)",
   "react": "React (basic level)",
 
-  "otherTechText": "",
+  "otherTechText": "Other programs/technology which I learnt",
 
   "sql": "SQL",
   "unity": "UNITY"

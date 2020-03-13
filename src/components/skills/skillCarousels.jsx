@@ -24,7 +24,7 @@ class Skill extends Component {
           <div className="skill-overlay">
             <img
               className="d-block w-100"
-              src={require("./../../svg/logo1.png")}
+              src={require("./../../svg/mainTech.png")}
               alt="First slide"
             />
             </div>
@@ -42,7 +42,7 @@ class Skill extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./../../svg/logo2.png")}
+              src={require("./../../svg/secondTech.png")}
               alt="Second slide"
             />
 
@@ -61,7 +61,7 @@ class Skill extends Component {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src={require("./../../svg/logo3.png")}
+              src={require("./../../svg/otherTech.png")}
               alt="Third slide"
             />
 

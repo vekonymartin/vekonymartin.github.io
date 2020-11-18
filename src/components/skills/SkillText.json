@@ -1,0 +1,29 @@
+{
+  "title": "Programing languages",
+  "mainTechText": "These are the languages, which I learn/learnt at university and use in my daily basis.",
+
+  "mainTech": ["C# (Entity Framework, LINQ)", "JAVA (JSP, Servlet)", "GIT"],
+  "secondaryTech": [
+    "HTML",
+    "CSS",
+    "JavaScript (basic level)",
+    "React (basic level)"
+  ],
+  "otherTech": ["SQL", "UNITY"],
+
+  "csharp": "C# (Entity Framework, LINQ)",
+  "java": "JAVA (JSP, Servlet)",
+  "git": "GIT",
+
+  "secondaryTechText": "Sometimes, I am learning/making webpage in my free time.",
+
+  "html": "HTML",
+  "css": "CSS",
+  "javascript": "JavaScript (basic level)",
+  "react": "React (basic level)",
+
+  "otherTechText": "Other programs/technology which I learnt",
+
+  "sql": "SQL",
+  "unity": "UNITY"
+}

@@ -29,7 +29,7 @@ class Skill extends Component {
             />
             </div>
             <Carousel.Caption>
-              <h3>{SkillText.title}</h3>
+              <h1>{SkillText.title}</h1>
               <p>{SkillText.mainTechText}</p>
               <p>
                 {SkillText.mainTech.map((tech, i) => (
@@ -47,7 +47,7 @@ class Skill extends Component {
             />
 
             <Carousel.Caption>
-              <h3>{SkillText.title}</h3>
+              <h1>{SkillText.title}</h1>
               <p>{SkillText.secondaryTechText}</p>
               <p>
               {SkillText.secondaryTech.map((tech, i) => (
@@ -66,7 +66,7 @@ class Skill extends Component {
             />
 
             <Carousel.Caption>
-              <h3>{SkillText.title}</h3>
+              <h1>{SkillText.title}</h1>
               <p>{SkillText.secondaryTechText}</p>
               <p>              
                 {SkillText.secondaryTech.map((tech, i) => (

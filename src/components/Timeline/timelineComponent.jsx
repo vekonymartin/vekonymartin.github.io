@@ -21,9 +21,10 @@ class TimeLineComponent extends Component {
             ")",
           color: this.props.textColor
         }}
-        date={this.props.date}
-        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        //date={this.props.date}
+        iconStyle={{ background: "rgb(255, 255, 255)", color: "#fff"}}
       >
+        <h2>{this.props.date}</h2>
         <h3 className="vertical-timeline-element-title">{this.props.work}</h3>
         <h4 className="vertical-timeline-element-subtitle">
           {this.props.workPlace}

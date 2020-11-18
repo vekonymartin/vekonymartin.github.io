@@ -13,8 +13,12 @@
 
 .titleBox {
   font-family: "Bebas Neue", cursive !important;
-  font-size: 40px;
+  font-size: 70px !important;
   margin-top: 0;
+}
+
+p{
+  font-size: 25px !important;
 }
 
 .flexIntroductionContainer {

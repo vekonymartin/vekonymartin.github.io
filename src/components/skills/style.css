@@ -1,6 +1,5 @@
 .skill-container {
   margin: 0;
-  height: 100vh;
   text-decoration: none;
   list-style: none;
 }
@@ -13,4 +12,16 @@
   height: 100%;
   width: 100%;
   /* z-index: -5;  */
+}
+
+h1{
+  font-size: 100px !important;
+}
+
+p{
+  font-size: 20px !important;
+}
+
+.carousel-indicators{
+  margin: 0 !important;
 }

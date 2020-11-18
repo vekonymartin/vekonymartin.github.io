@@ -1,10 +1,14 @@
 .timeline-container {
-  height: auto;
+  /* margin-top: 7vh; */
+  /* height: 100%; */
   width: 100%;
+  position: inherit;
+  margin: 0 !important;
 }
 
 .verrical-timeline-element-description {
   font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
 }
 
 @media only screen and (min-width: 1170px) {

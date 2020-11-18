@@ -1,20 +1,24 @@
 {
+  "JobTitleActual": "Effective Group Informatika Zrt.",
   "JobTitleOne": "BKV Zrt. M4 Metro Hírközlési Szakszolgálat",
   "JobTitleTwo": "Logiscool Instructor",
   "JobTitleThree": "OtterWorks",
   "JobTitleFour": "Zyxel",
 
+  "JobActualAddress": "Budapest",
   "JobOneAddress": "Budapest",
   "JobTwoAddress": "Vác",
   "JobThreeAddress": "Budapest",
   "JobFourAddress": "Budapest",
 
+  "JobActualDescr": "Software tester",
   "JobOneDescr": " Maintain, fixed problem on the Budapest metro line CCTV,Emergency Call, Switch) ",
   "JobTwoDescr": "Teaching children game developing.",
   "JobThreeDescr": "Develop game with Unity Engine.",
   "JobFourDescr": "Configurate network devices.",
 
-  "JobOneDate": "2018 - Present",
+  "JobActualDate": "2020 - Present",
+  "JobOneDate": "2018 - 2020",
   "JobTwoDate": "2017 - Present",
   "JobThreeDate": "2016",
   "JobFourDate": "2014 / 2015"

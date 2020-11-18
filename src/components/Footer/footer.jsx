@@ -43,9 +43,6 @@ class Footer extends Component {
             </Col>
             <Col></Col>
           </Row>
-          <div>
-            <p>Privacy policy</p>
-          </div>
         </Container>
       </div>
     );

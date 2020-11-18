@@ -13,6 +13,16 @@ class TimeLine extends Component {
     return (
       <div className="timeline-container">
         <VerticalTimeline>
+        <TimelineComponent
+            r="221"
+            g="19"
+            b="19"
+            textColor="#fff"
+            work={TimelineText.JobTitleActual}
+            workPlace={TimelineText.JobActualAddress}
+            date={TimelineText.JobActualDate}
+            desc={TimelineText.JobActualDescr}
+          />
           <TimelineComponent
             r="62"
             g="167"
@@ -44,9 +54,9 @@ class TimeLine extends Component {
             desc={TimelineText.JobThreeDescr}
           />
           <TimelineComponent
-            r="14"
-            g="46"
-            b="185"
+            r="33"
+            g="127"
+            b="254"
             textColor="#fff"
             work={TimelineText.JobTitleFour}
             workPlace={TimelineText.JobFourAddress}
